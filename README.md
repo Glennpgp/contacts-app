@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Contacts App (React)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a small responsive Contacts browser built with React. It fetches example contacts from jsonplaceholder.typicode.com and displays them in a responsive grid. Click a contact to view details in a modal. This is read-only (no create/update/delete).
 
 ## Available Scripts
 
@@ -13,6 +13,21 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+Quick start
+1. Install dependencies
+
+```
+npm install
+```
+
+2. Start the dev server
+
+```
+npm start
+```
+
+The app will open at http://localhost:3000. The contacts are loaded from https://jsonplaceholder.typicode.com/users.
 
 ### `npm test`
 
